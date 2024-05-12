@@ -1,0 +1,79 @@
+body {
+    background-color: #d1d0cc;
+    margin: 0;
+}
+
+header{
+    /* background: #777578; */
+    color: white;
+    margin: 0;
+    font-family: Calibri;
+    background-image: url("https://www.tilingtextures.com/wp-content/uploads/2017/03/0027-512x512.jpg");
+    background-repeat:repeat;
+}
+
+#dogSilhouette1 {
+    float: left;
+    transform: translate(4vw, -140px);
+    height: auto; 
+    max-width: 200px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 60;
+    padding: 0 20 0 20px;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0 0 0 40px;
+    display: center;
+    text-align: center;
+}
+
+nav ul li{
+    background: #284253;
+    color: white;
+    display: inline-block;
+    list-style-type: none;
+    padding: 8px 25px;
+    margin: 0px 50px 0px 10px;
+    font-size: 20;
+    border-radius: 20px 20px 0px 0px;
+    transform: translate(0px,2px);
+    box-shadow: 3px -3px 12px 0px #484d58;
+    
+}
+nav ul li a {
+    color: white;
+}
+
+#home{
+    font-size: 25;
+    background: #4c80a0ab;
+    transform: translate(0px,-1px);
+}
+
+
+hr {
+    display: block;
+    height: 3px;
+    border: 1px;
+    border-top: 5px solid #c7c7c7;
+    margin:  0 500 10 500px;
+    padding: 0px;
+    transform: translate(0px,10px);
+}
+
+
+
+/* Color palette:
+#d1d0cc
+#ab9a93
+#777578
+#4b5860
+#294455
+#0c0b1b
+ */
